@@ -1,0 +1,209 @@
+{
+    "version": "1.0.3",
+    "skills": [
+        {
+            "name": "development",
+            "displayName": "💻 研发效能",
+            "welcomeMessage": "欢迎使用研发效能工具集，提升您的编码生产力！(～￣▽￣)～",
+            "type": "category",
+            "children": [
+                {
+                    "name": "frontend",
+                    "displayName": "🎨 前端开发",
+                    "welcomeMessage": "像素级还原，动效丝滑，打造极致用户体验 ✨",
+                    "type": "category",
+                    "children": [
+                        {
+                            "name": "frontend-design",
+                            "displayName": "前端设计专家",
+                            "description": "专业的前端设计与 UI/UX 开发工具，辅助生成高质量界面代码。",
+                            "version": "1.0.0",
+                            "tags": [
+                                "frontend",
+                                "design",
+                                "ui",
+                                "ux"
+                            ],
+                            "bundled": false,
+                            "path": "https://github.com/anthropics/skills/tree/main/skills/frontend-design"
+                        },
+                        {
+                            "name": "canvas-design",
+                            "displayName": "Canvas 绘图设计",
+                            "description": "生成 PNG 或 PDF 格式的视觉设计作品，适用于海报、图表等场景。",
+                            "version": "1.0.0",
+                            "tags": [
+                                "canvas",
+                                "design",
+                                "image"
+                            ],
+                            "bundled": false,
+                            "path": "https://github.com/anthropics/skills/tree/main/skills/canvas-design"
+                        }
+                    ]
+                },
+                {
+                    "name": "devtools",
+                    "displayName": "🛠️ 辅助工具",
+                    "welcomeMessage": "工欲善其事，必先利其器。这里有一些好用的小工具 🔧",
+                    "type": "category",
+                    "children": [
+                        {
+                            "name": "skill-creator",
+                            "displayName": "Skills官方指南",
+                            "description": "教大家如何创建高质量 Skills 的官方指南。",
+                            "version": "1.0.0",
+                            "tags": [
+                                "guide",
+                                "tools"
+                            ],
+                            "bundled": false,
+                            "path": "https://github.com/anthropics/skills/tree/main/skills/skill-creator"
+                        },
+                        {
+                            "name": "mcp-builder",
+                            "displayName": "MCP 服务构建器",
+                            "description": "帮助开发者快速创建和配置 Model Context Protocol (MCP) 服务。",
+                            "version": "1.0.0",
+                            "tags": [
+                                "mcp",
+                                "server",
+                                "tools"
+                            ],
+                            "bundled": false,
+                            "path": "https://github.com/anthropics/skills/tree/main/skills/mcp-builder"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "writing",
+            "displayName": "📝 文档写作",
+            "welcomeMessage": "笔落惊风雨，文档任我行。专业的文档写作助手为您服务 ✍️",
+            "type": "category",
+            "children": [
+                {
+                    "name": "project-mgmt",
+                    "displayName": "📁 项目管理",
+                    "welcomeMessage": "运筹帷幄之中，决胜千里之外，项目管理文档一键生成 📊",
+                    "type": "category",
+                    "children": [
+                        {
+                            "name": "project-proposal-expert",
+                            "displayName": "项目计划书专家",
+                            "description": "专门用于编写技术研发项目计划书的专家。",
+                            "version": "1.0.0",
+                            "tags": [
+                                "proposal",
+                                "writer"
+                            ],
+                            "bundled": true,
+                            "path": "writing/project-mgmt/project-proposal-expert.skill"
+                        },
+                        {
+                            "name": "project-completion-report-expert",
+                            "displayName": "项目结题报告专家",
+                            "description": "专门用于编写技术研发项目结题报告的专家。",
+                            "version": "1.0.0",
+                            "tags": [
+                                "report",
+                                "writer"
+                            ],
+                            "bundled": true,
+                            "path": "writing/project-mgmt/project-completion-report-expert.skill"
+                        }
+                    ]
+                },
+                {
+                    "name": "ip-docs",
+                    "displayName": "⚖️ 知识产权",
+                    "welcomeMessage": "保护创新，尊重版权。专业的专利文档撰写服务 📜",
+                    "type": "category",
+                    "children": [
+                        {
+                            "name": "patent-writer",
+                            "displayName": "AI专利撰写专家",
+                            "description": "帮助用户将技术创意或交底书转化为符合规范的专利申请文本。",
+                            "version": "1.0.0",
+                            "tags": [
+                                "patent",
+                                "writer"
+                            ],
+                            "bundled": true,
+                            "path": "writing/ip-docs/patent-writer.skill"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "productivity",
+            "displayName": "🚀 办公效率",
+            "welcomeMessage": "释放双手，让 AI 帮您处理繁琐的文档表格工作 📈",
+            "type": "category",
+            "children": [
+                {
+                    "name": "office",
+                    "displayName": "📑 办公文档",
+                    "welcomeMessage": "Word, Excel, PPT, PDF 全能助手，办公无忧。",
+                    "type": "category",
+                    "children": [
+                        {
+                            "name": "docx",
+                            "displayName": "Word 文档专家",
+                            "description": "创建、编辑和分析 Word 文档，支持复杂的格式和内容处理。",
+                            "version": "1.0.0",
+                            "tags": [
+                                "word",
+                                "office",
+                                "document"
+                            ],
+                            "bundled": false,
+                            "path": "https://github.com/anthropics/skills/tree/main/skills/docx"
+                        },
+                        {
+                            "name": "xlsx",
+                            "displayName": "Excel 表格专家",
+                            "description": "强大的 Excel 电子表格处理工具，支持数据分析和报表生成。",
+                            "version": "1.0.0",
+                            "tags": [
+                                "excel",
+                                "office",
+                                "spreadsheet"
+                            ],
+                            "bundled": false,
+                            "path": "https://github.com/anthropics/skills/tree/main/skills/xlsx"
+                        },
+                        {
+                            "name": "pptx",
+                            "displayName": "PPT 演示文稿专家",
+                            "description": "自动生成和编辑 PowerPoint 演示文稿，让汇报更精彩。",
+                            "version": "1.0.0",
+                            "tags": [
+                                "ppt",
+                                "office",
+                                "presentation"
+                            ],
+                            "bundled": false,
+                            "path": "https://github.com/anthropics/skills/tree/main/skills/pptx"
+                        },
+                        {
+                            "name": "pdf",
+                            "displayName": "PDF 工具箱",
+                            "description": "PDF 文本提取、生成及表单处理全能工具。",
+                            "version": "1.0.0",
+                            "tags": [
+                                "pdf",
+                                "office",
+                                "document"
+                            ],
+                            "bundled": false,
+                            "path": "https://github.com/anthropics/skills/tree/main/skills/pdf"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
