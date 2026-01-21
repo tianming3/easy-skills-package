@@ -28,6 +28,23 @@
                             "path": "https://github.com/anthropics/skills/tree/main/skills/frontend-design"
                         },
                         {
+                            "name": "ui-ux-pro-max",
+                            "displayName": "UI/UX Pro Max 设计智能助手",
+                            "description": "专业 UI/UX 设计智能助手，支持 50 种设计风格、21 种调色板、50 种字体组合，覆盖 React、Next.js、Vue、Svelte、SwiftUI 等 9 个技术栈。",
+                            "version": "1.0.0",
+                            "tags": [
+                                "ui",
+                                "ux",
+                                "design",
+                                "frontend",
+                                "react",
+                                "vue",
+                                "tailwind"
+                            ],
+                            "bundled": false,
+                            "path": "https://github.com/nextlevelbuilder/ui-ux-pro-max-skill/tree/main/skills/ui-ux-pro-max"
+                        },
+                        {
                             "name": "canvas-design",
                             "displayName": "Canvas 绘图设计",
                             "description": "生成 PNG 或 PDF 格式的视觉设计作品，适用于海报、图表等场景。",
